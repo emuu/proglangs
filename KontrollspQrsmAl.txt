@@ -1,0 +1,22 @@
+Kontroll spørsmål:
+
+0) Javascript kan brukes til og legge til forskjellige "gadgets" på en side, f.eks en klokke. Javascript er et 
+programmeringsspråk som ofte regnes som en utvidelse av html, du skriver koder og nettleseren tolker og utfører
+kodene du har skrevet.
+
+1) Forskjellen på CSS id og class er at id kan du kun bruke til å definere et element en gang, mens class kan 
+brukes om elementet skal brukes og defineres flere ganger. F.eks om du vil at websiden din skal ha samme stilen på alle 
+paragrafene, ville du ha brukt class da du slipper og lage en ny id til hver paragraf.
+
+2) Versjonen brukt i deloppgave 0 blir rotete og uoversiktelig om listen blir for stor. Versjonen brukt i deloppgave 2
+derimot holder siden oversiktlig samtidig som elementene er lette og finne. 
+
+3) Wikipedia bruker <ul> (unsorted) og <li> (list) innenfor en container til og ramse opp programmeringsspråkene,
+hver bokstav har en egen container hvor programmeringsspråkene er sortert alfabetisk. Innenfor containeren er listen delt
+opp i tre forskjellige paragrafer hvor listene er noenlunde like lange.
+
+4) Hovedforskjellene mellom et <div> og <span> element er at med div-taggen kan du putte så å si hva som helst oppi,
+over flere linjer. Mens span-taggen kan du f.eks. bruke om du har en setning og du vil ha et ord i den med en spesiell 
+effekt så kan du bruke span. Altså span brukes ikke over flere linjer, men derimot et lite område på en linje.
+
+5) Fikk ikke til deloppgave 2 så kan desverre ikke svare på denne.
