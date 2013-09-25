@@ -1,25 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <!--
   LAB1
   Navn: Steffan Larsen
   Jeg samarbeidet med: Simen, Tor Arne og Julian
-  Tiden jeg har brukt på oppgaven: ...
+  Tiden jeg har brukt på oppgaven: 4-5 timer.
 -->
 
 <html>
 <head>
  <meta charset="utf-8">
- <title>Programmeringsspråk (versjon 0.0.1)</title>
+ <title>Programmeringsspråk (versjon 0.01)</title>
  
 <link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+<style>
+ul.a {list-style-type:none;}
+</style>
 </head>
-<body bgcolor="#123456">
+<body bgcolor="#ffffff">
 <center>
 <div><b><u>LAB1 brukergrensesnitt for programmeringsspr&aring;k v0.1</u></b></div>
 -----------------------------------
-	<ul class="noliststyletype">
-	<ul>
+	<ul class="a">
 	<div id="A">
 	<li>ActionScript</li>
 	<li>AppleScript</li>
@@ -72,7 +74,7 @@
 
 <form>
 <label for="proglangs">Velg:</label>
-  <select name="select-pl" id"proglangs" onChange="printToOutputBox(this)">
+  <select id="proglangs" onChange="printToOutputBox(this)">
   <option value="actionscript">ActionScript</option>
   <option value="as">AppleScript</option>
   <option value="asp">Asp</option>
@@ -98,7 +100,7 @@
 </select>
 </form>
 <br />
-<span id="outputbox">Intet programmeringsspråk er selektert. Selekter et programmeringsspråk!</span>
+<div id="outputbox">Intet programmeringsspråk er selektert. Selekter et programmeringsspråk!</span>
 <script src="proglangs.js"></script>
 </center>
 </body>
